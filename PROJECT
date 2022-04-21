@@ -3,4 +3,10 @@ layout:
 - go.kubebuilder.io/v3
 projectName: kt-ingress-controller
 repo: kt.domain/kt-ingress-controller
+resources:
+- controller: true
+  domain: kt.domain
+  group: kt
+  kind: KtIngress
+  version: v1
 version: "3"
