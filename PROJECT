@@ -1,0 +1,6 @@
+domain: kt.domain
+layout:
+- go.kubebuilder.io/v3
+projectName: kt-ingress-controller
+repo: kt.domain/kt-ingress-controller
+version: "3"
